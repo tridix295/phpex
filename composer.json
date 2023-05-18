@@ -1,0 +1,25 @@
+{
+    "name": "sebastian.diaz/phpex",
+    "description": "plataforma de metricas de rendimiento en PHP que utiliza la biblioteca XHProf para recolectar y analizar datos de rendimiento. Proporciona una interfaz de usuario intuitiva para visualizar y analizar los datos de rendimiento de sus aplicaciones PHP, lo que le permite identificar y solucionar cuellos de botella de manera eficiente.",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "symfony/dependency-injection": "6.3.x-dev"
+    },
+    "require-dev": {
+        "nnnick/chartjs": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sebastian Diaz",
+            "email": "d12sebastian21@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
